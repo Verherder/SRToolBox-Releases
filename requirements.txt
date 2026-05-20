@@ -1,0 +1,17 @@
+# Dependencies for SRToolBox
+PyYAML>=6.0
+pandas>=2.0.0
+xlrd>=2.0.0
+openpyxl>=3.1.0
+PyMuPDF>=1.23.0
+numpy>=1.24.0
+Pillow>=10.0.0
+paddlepaddle==3.1.0
+paddleocr==3.1.0
+paddlex==3.1.1
+langchain==0.3.26
+langchain-community==0.3.27
+matplotlib>=3.0.0
+pydicom>=3.0.0
+Glymur>=0.14.0
+frontend>=0.0.3
