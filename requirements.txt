@@ -1,19 +1,24 @@
-# Dependencies for SRToolBox
+# SRToolBox customer runtime dependencies, installed into the D:\venv venv.
+# Keep in sync with the `pip:` section of environment.yml (used by dev/CI);
+# tests/test_release_contract.py enforces that the two lists are identical.
+# Keep this file ASCII-only: pip on Windows reads requirements.txt as GBK and
+# non-ASCII comments break installation.
 PyYAML>=6.0
-pandas>=2.0.0
-xlrd>=2.0.0
-openpyxl>=3.1.0
-python-docx>=1.2.0
-PyMuPDF>=1.23.0
-numpy>=1.24.0
-Pillow>=10.0.0
-paddlepaddle==3.1.0
-paddleocr==3.1.0
-paddlex==3.1.1
+Glymur==0.14.0.post1
+PyMuPDF==1.26.3
+frontend==0.0.3
 langchain==0.3.26
 langchain-community==0.3.27
-matplotlib>=3.0.0
-pydicom>=3.0.0
-Glymur>=0.14.0
-frontend>=0.0.3
+matplotlib==3.10.3
+numpy>=1.24.0
+openpyxl>=3.1.0
+paddleocr==3.1.0
+paddlepaddle==3.1.0
+paddlex==3.1.1
+pandas>=2.0.0
+Pillow>=10.0.0
+pydicom==3.0.1
+pyinstaller>=6.0
+python-docx>=1.2.0
 pywin32>=306; sys_platform == "win32"
+xlrd==2.0.2
